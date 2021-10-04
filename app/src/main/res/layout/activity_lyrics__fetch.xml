@@ -2,7 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/headphone"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/speaker"
     tools:context=".Lyrics_Fetch">>
 
 
@@ -13,7 +15,7 @@
         android:gravity="center"
         android:text="TextView"
         android:textColor="#FF000000"
-        android:textSize="20sp"
+        android:textSize="60sp"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

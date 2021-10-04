@@ -22,7 +22,7 @@
 
     </ListView>
 
-    <com.example.jean.jcplayer.view.JcPlayerView
+<!--    <com.example.jean.jcplayer.view.JcPlayerView-->
         android:id="@+id/jcplayer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,7 +43,8 @@
         app:seek_bar_color="#FFFFFF"
         app:text_audio_current_duration_color="#FFFFFF"
         app:text_audio_duration_color="#FFFFFF"
-        app:text_audio_title_color="#FFFFFF" />
+        app:text_audio_title_color="#FFFFFF"
+        tools:ignore="MissingClass" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
