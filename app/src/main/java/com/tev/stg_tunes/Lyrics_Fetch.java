@@ -26,7 +26,7 @@ public class Lyrics_Fetch extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lyrics__fetch);
 
-        getSupportActionBar().setTitle("Acoustix");
+        getSupportActionBar().setTitle("L-Tunes");
         Button br = (Button) findViewById(R.id.button3);
         br.setOnClickListener(new View.OnClickListener() {
             @Override
